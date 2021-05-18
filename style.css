@@ -4,63 +4,75 @@
     margin: 0;
 }
 
+
+/* Шапка */
+
 header {
     display: flex;
+    background-color: crimson;
     height: 80px;
 }
 
 .container {
+    background-color: cornflowerblue;
+    display: flex;
     width: 1190px;
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+
+/* Первый блок */
+
+.first-sect {
+    margin-top: 50px;
     display: flex;
-    min-height: 100%;
-    font-family: 'exo 2';
-    font-size: 20px;
-    background-color: blueviolet;
-}
-
-.logo {
-    display: flex;
-}
-
-a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.zakaz {
-    background-color: #55A342;
-    width: 190px;
-    height: 50px;
-    border: none;
-    color: #fff;
-    font-family: 'exo 2';
-    font-size: 20px;
-}
-
-main {
-    height: 100vh;
-    flex-grow: 1;
-}
-
-h1 {
-    font-family: 'exo 2';
-    font-size: 35px;
-    text-align: left;
-    font-weight: bold;
-    letter-spacing: 0.025em;
+    background-color: darkkhaki;
 }
 
 .intro {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 25px;
     display: flex;
-    flex-direction: column;
     align-items: center;
 }
 
-.intro_img {
+
+/* Наши преимущества */
+
+.second-sect {
+    width: 100%;
+    margin-top: 50px;
     display: flex;
+    background-color: darkmagenta;
+    flex-direction: column;
+}
+
+.advantage {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: auto;
+}
+
+.adv-items {
+    display: flex;
+    background-color: darkslategray;
+    flex-direction: column;
+}
+
+
+/* Мы строим дома */
+
+.three-sect {
+    margin-top: 50px;
+    display: flex;
+    background-color: indianred;
+}
+
+.catalog-items {
+    background-color: lawngreen;
 }
